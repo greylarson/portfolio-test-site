@@ -613,7 +613,11 @@ code {
   padding-right: 15px;
   padding-left: 15px;
 }
-
+/* makes "made with" text on portfolio-single aligned right
+.col-lg-4{
+	text-align: right;
+}
+*/
 @media (min-width:576px) {
   .col-lg,.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12,.col-md,.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12,.col-sm,.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12,.col-xs,.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12 {
     padding-right: 15px;
@@ -6429,7 +6433,7 @@ b,strong {
 }
 
 .nk-navbar .nk-nav>li.active>a,.nk-navbar .nk-nav>li>a:hover {
-  color: #555;
+  color: #999;
 }
 
 .nk-navbar {
@@ -6467,7 +6471,7 @@ b,strong {
   display: block;
   padding: 6px 30px;
   padding-right: 75px;
-  color: #c5c5c5;
+  color: #999;
   text-decoration: none;
 }
 
@@ -6499,21 +6503,21 @@ b,strong {
 .nk-navbar .nk-nav-logo .nk-nav-logo-onscroll {
   display: none;
 }
-
+/* navbar unactive text when at top */
 .nk-navbar.nk-navbar-white-text-on-top .nk-nav>li>a {
   color: #000;
 }
-
+/* navbar active text when at top */
 .nk-navbar.nk-navbar-white-text-on-top .nk-nav>li.active>a,.nk-navbar.nk-navbar-white-text-on-top .nk-nav>li>a:hover {
-  color: #555;
+  color: #999;
 }
-
+/* navbar unactive text when scrolling */
 .nk-navbar.nk-navbar-white-text-on-top.nk-navbar-solid .nk-nav>li>a {
   color:#000;
 }
-
+/* navbar active text when scrolling */
 .nk-navbar.nk-navbar-white-text-on-top.nk-navbar-solid .nk-nav>li.active>a,.nk-navbar.nk-navbar-white-text-on-top.nk-navbar-solid .nk-nav>li>a:hover {
-  color: #555;
+  color: #999;
 }
 
 .nk-navbar.nk-navbar-white-text-on-top .nk-nav-logo .nk-nav-logo-onscroll {
@@ -7869,7 +7873,7 @@ div.nk-error {
   display: inline-block;
   width: 18px;
   height: 18px;
-  color: #000;
+  color: #fff;
 }
 
 .nk-icon-close:after,.nk-icon-close:before {
@@ -8199,7 +8203,7 @@ a:hover>.nk-icon-search:after {
   cursor: pointer;
   padding: 5px 17px;
   transition: color .5s;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 500;
   font-size: .82rem;
 }
