@@ -8244,13 +8244,14 @@ a:hover>.nk-icon-search:after {
 }
 
 .nk-portfolio-list .nk-portfolio-item div.nk-portfolio-item-image>div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-position: 0% 0%;
-  background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-position: 0% 0%;
+	background-size: cover;
+	background-color: #FFFFFF;
 }
 
 .nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-xs a.nk-portfolio-item-image,.nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-xs div.nk-portfolio-item-image {
